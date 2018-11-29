@@ -28,16 +28,17 @@
 %----------------------------------------------------------------------------------------
 
 \definecolor{white}{RGB}{255,255,255}
+\definecolor{black}{RGB}{0,0,0}
 \definecolor{gray}{HTML}{202020}
-\definecolor{sidecolor}{HTML}{b0c7b3}
-\definecolor{mainblue}{HTML}{1a586f}
-\definecolor{maingray}{HTML}{b0c7b3}
+\definecolor{sidecolor}{HTML}{cfebdf}
+\definecolor{mainblue}{HTML}{387d7a}
+\definecolor{maingray}{HTML}{9bc4cb}
 
 %----------------------------------------------------------------------------------------
 %	 MISC CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-\renewcommand{\bfseries}{\color{gray}} % Make \textbf produce coloured text instead
+\renewcommand{\bfseries}{\color{black}} % Make \textbf produce coloured text instead
 
 \pagestyle{empty} % Disable headers and footers
 
@@ -196,6 +197,7 @@
 	{%
 		\round{#1}{
 			\ifcase\value{colorCounter}%
+			mainblue\or%
 			maingray\or%
 			mainblue\or%
 			maingray\or%
