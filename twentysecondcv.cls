@@ -30,9 +30,9 @@
 \definecolor{white}{RGB}{255,255,255}
 \definecolor{black}{RGB}{0,0,0}
 \definecolor{gray}{HTML}{202020}
-\definecolor{sidecolor}{HTML}{cfebdf}
-\definecolor{mainblue}{HTML}{387d7a}
-\definecolor{maingray}{HTML}{9bc4cb}
+\definecolor{sidecolor}{HTML}{CFEBDF}
+\definecolor{mainblue}{HTML}{387D7A}
+\definecolor{maingray}{HTML}{9BC4CB}
 
 %----------------------------------------------------------------------------------------
 %	 MISC CONFIGURATIONS
