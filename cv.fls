@@ -209,9 +209,9 @@ INPUT ./cv.out
 INPUT ./cv.out
 OUTPUT cv.out
 OUTPUT cv.pdf
-INPUT 3.jpg
-INPUT ./3.jpg
-INPUT ./3.jpg
+INPUT 4.jpg
+INPUT ./4.jpg
+INPUT ./4.jpg
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/intel/clearsans/ClearSans-lf-t1.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/intel/clearsans/ClearSans-lf-t1.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/marvosym/umvs.fd

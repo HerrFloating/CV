@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1569755395 "cv.tex" "cv.pdf" "cv" 1569755398
+["pdflatex"] 1569934499 "cv.tex" "cv.pdf" "cv" 1569934500
   "/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/clearsans/clr_er7w2x.enc" 1480098666 2877 6ddb27cbef539831b4076105c848e789 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map" 1480098670 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/intel/clearsans/ClearSans-lf-t1--base.tfm" 1480098696 1628 b843f3b3a8f905a64657f476bdc70de9 ""
@@ -124,15 +124,15 @@
   "/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1542456681 2350277 a699055bee05bf8a40b0504752487295 ""
   "/usr/local/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt" 1553512805 4129607 95e591c4ab7e37f8a11071e33a01d643 ""
   "/usr/local/texlive/2017/texmf.cnf" 1542438318 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
-  "3.jpg" 1569750537 33783 b21687c99a05121753711c4fd8d3c6f2 ""
+  "4.jpg" 1569934484 789189 ef987eeeb0ea1ef5da58397057c1fa00 ""
   "ClearSans.sty" 1569750537 2728 685815546f3b22cac13ce9e59357f738 ""
-  "cv.aux" 1569755397 706 2286395f7345edfb78244a4a89ef71ef ""
-  "cv.out" 1569755396 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "cv.tex" 1569755388 9158 326837876362b2004fafb9a696957e86 ""
+  "cv.aux" 1569934500 706 2286395f7345edfb78244a4a89ef71ef ""
+  "cv.out" 1569934499 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "cv.tex" 1569934498 9158 bc4a7618e0a6e45c7b6bc7845e78de45 ""
   "mweights.sty" 1569750537 4953 67f29a12ea26221103fce6bae3433e60 ""
   "twentysecondcv.cls" 1569750537 8667 2c09ef912f56203649c1f6d30d7c6621 ""
   (generated)
   "cv.log"
   "cv.pdf"
-  "cv.out"
   "cv.aux"
+  "cv.out"
