@@ -19,6 +19,8 @@
 \RequirePackage{marvosym}
 \RequirePackage{parskip}
 \usepackage[hidelinks]{hyperref}
+\usepackage[symbol]{footmisc}
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
 
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{article}}
 \ProcessOptions\relax
@@ -82,8 +84,8 @@
 \newcommand*\icon[1]{\tikz[baseline=(char.base)]{\node[shape=circle,draw,inner sep=1pt, fill=mainblue,mainblue,text=white] (char) {#1};}}
 
 % Command for printing coding progress bars
-\newcommand\coding[1]{ 
-	\renewcommand{\coding}{
+\newcommand\Softwares[1]{ 
+	\renewcommand{\Softwares}{
 		\begin{tikzpicture}
 			\foreach [count=\i] \x/\y in {#1}{
 				\draw[fill=maingray,maingray] (0,\i) rectangle (6,\i+0.4);
@@ -95,14 +97,12 @@
 }
 
 
+
 % Command for printing skill progress bars
-\newcommand\skills[1]{ 
-	\renewcommand{\skills}{
+\newcommand\coding[1]{ 
+	\renewcommand{\coding}{
 		\begin{tikzpicture}
 			\foreach [count=\i] \x/\y in {#1}{
-				\draw[fill=maingray,maingray] (0,\i) rectangle (6,\i+0.4);
-				\draw[fill=white,mainblue](0,\i) rectangle (\y,\i+0.4);
-				
 				\node [above right] at (0,\i+0.4) {\x};
 			}
 		\end{tikzpicture}
@@ -164,15 +164,15 @@
 		}
 
 		%------------------------------------------------
-        \profilesection{Skills}
+        \profilesection{Coding}
 
-		\skills
+		\coding
 				
 
 		%\hspace{10px}
-		\profilesection{Coding}
+		\profilesection{Softwares}
         
-        \coding
+        \Softwares
 
 		
 		\scriptsize
