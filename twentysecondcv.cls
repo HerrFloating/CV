@@ -109,6 +109,15 @@
 	}
 }
 
+\newcommand\lang[1]{ 
+	\renewcommand{\lang}{
+		\begin{tikzpicture}
+			\foreach [count=\i] \x/\y in {#1}{
+				\node [above right] at (0,\i+0.4) {\x};
+			}
+		\end{tikzpicture}
+	}
+}
 
 
 %----------------------------------------------------------------------------------------
@@ -173,6 +182,11 @@
 		\profilesection{Softwares}
         
         \Softwares
+        %\hspace{10px}
+        
+		\profilesection{Languges}
+        
+        \lang
 
 		
 		\scriptsize
