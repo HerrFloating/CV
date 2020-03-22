@@ -184,7 +184,7 @@
         \Softwares
         %\hspace{10px}
         
-		\profilesection{Languges}
+		\profilesection{Languages}
         
         \lang
 
